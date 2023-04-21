@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+html .bg-container {
+  background-color: #ffa1a9;
+  background-size: cover;
+  width: 100;
+}
+
+.main-icons-div {
+  height: 70px;
+  width: 70px;
+  border: 3px solid #2a2a63;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.main-icon {
+  color: #2a2a63;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 4px;
+  text-align: center;
+}
+
+.main-icon-tag-name {
+  color: #39376c;
+  font-weight: 600;
+  padding: 4px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.name {
+  font-size: 20px;
+  color: #2a2a63;
+}
+
+.sample-tag-name {
+  color: #39376c;
+  font-weight: 600;
+  text-align: left;
+  font-size: 10px;
+}
+
+.profile-vl {
+  border-right: 2px solid #2a2a63;
+  height: 100%;
+}
+
+.profile-below-hr {
+  background-color: #2a2a63;
+  height: 1px;
+  text-align: right;
+}
+
+.circle-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.circle {
+  height: 8px;
+  width: 8px;
+  background-color: #001a66;
+  border-radius: 50px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.interests-icon-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  border: 2px solid #001a66;
+  border-radius: 100%;
+  background-color: #001a66;
+}
+
+.interests-icon {
+  font-size: 30px;
+  color: #ff9999;
+}
+
+.interest-description {
+  text-align: center;
+  font-size: 12px;
+  color: #2a2a63;
+  padding-top: 10px;
+}
+
+.interest-div {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 767px) {
+  .interest-div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 990px) {
+  .main-icons-div {
+    height: 120px;
+    width: 120px;
+    border: 3px solid #2a2a63;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .main-icon {
+    color: #2a2a63;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 4px;
+    text-align: center;
+  }
+
+  .name {
+    font-size: 44px;
+    font-weight: bold;
+  }
+
+  .main-icon-tag-name {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .sample-tag-name {
+    color: #39376c;
+    font-weight: 600;
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .interests-icon-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 115px;
+    border: 2px solid #001a66;
+    border-radius: 100%;
+    background-color: #001a66;
+  }
+
+  .interests-icon {
+    font-size: 60px;
+    color: #ff9999;
+  }
+
+  .interest-description {
+    text-align: center;
+    font-size: 20px;
+    color: #2a2a63;
+    padding-top: 10px;
+  }
+
+  .interest-div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
